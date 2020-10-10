@@ -1,0 +1,79 @@
+
+h1{
+  text-align: center;
+  color: #31112c;
+  font-family: 'Sansita Swashed', cursive;
+
+
+}
+.img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+  }
+
+h2{
+  text-align: center;
+  color: #931a25;
+font-family: 'Sansita Swashed', cursive;
+
+
+}
+.p{
+  text-align: center;
+  color:#d54062;
+  font-family: 'Roboto Slab', serif;
+
+}
+.form{
+  text-align: center;
+}
+.name{
+  color: #31112c;
+  font-family: 'David Libre', serif;
+
+}
+.gender{
+  color:#931a25;
+  font-family:  'David Libre', serif;
+
+}
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 460px;
+
+
+}
+.btn2{
+  cursor: pointer;
+position: relative;
+padding:15px,32px;
+border-radius: 4px;
+line-height: 2.0rem;
+font-size:16px;
+font-weight: 600;
+border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+}
+#lovevalue{
+  position: relative;
+  left: 410px;
+}

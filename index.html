@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>love calculator</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style media="screen">
+  table {
+    border-collapse: separate;
+    border-spacing: 30px 0;
+  }
+  td {
+       width: 60px;
+       text-align: center;
+       border:0.5 solid black;
+       padding: 5px;
+     }
+  </style>
+
+<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@700&family=Roboto+Slab:wght@500;800&family=Sansita+Swashed:wght@700;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="body1" >
+
+       <h1>Love calculator</h1>
+       <img class="img" src="https://static.vecteezy.com/system/resources/previews/000/429/560/original/heart-beat-rate-icon-vector.jpg"  height="100px" width="200px" alt="">
+       <pre class="p">Here is the Love Calculator that lets you calculate</pre>
+         <pre class="p">love compatibility and your chances of a successful relationship.</pre>
+
+       <h2 class="h2">Find Love %</h2>
+        <table align="center">
+          <tr cellspacing="2px">
+            <td><button class="btn2">Enter your name</button></td>
+            <td> <h2>+</h2> </td>
+            <td><button type="button" name="button" class="btn2">Partner's Name</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="" placeholder="enter your name" value=""><br><br></td>
+              <td> <p>.</p> </td>
+
+          <td>  <input type="text" name="" value="" placeholder="enter your  loves name"><br><br></td>
+          </tr>
+        </table>
+       <button  class="btn" onclick="checkloveper()"> click </button>
+       <div class="">
+      <input type="text" name="" placeholder="Love percentage" class="form-control text-center w-25 m-auto "id="lovevalue">
+       </div>
+
+    <script type="text/javascript">
+      function checkloveper(){
+      var lovdata = Math.random() * 100;
+  lovdata = Math.floor(lovdata);
+  document.getElementById('lovevalue').value = lovdata + "%";
+  
+    </script>
+    <h2> God bless your relationship !!!</h2>
+
+  </body>
+</html>
